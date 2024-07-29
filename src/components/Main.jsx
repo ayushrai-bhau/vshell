@@ -21,6 +21,7 @@ const Main = () => {
   return (
     <main className="container mx-auto px-6 py-4 flex-grow overflow-y-auto" style={{ maxHeight: 'calc(100vh - 300px)' }}>
       <div className="grid grid-cols-2 gap-4">
+        {/* Render each category item */}
         {categories.map((category) => (
           <CategoryItem key={category.name} category={category} />
         ))}
