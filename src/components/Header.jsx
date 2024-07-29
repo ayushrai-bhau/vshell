@@ -19,7 +19,7 @@ const Header = () => {
               placeholder="Search Store"
               aria-label="Search Store"
             />
-            <FaSearch className="absolute left-3 top-3 text-gray-500" />
+            <FaSearch className="absolute left-3 top-4 text-gray-500" />
           </div>
         </div>
       </header>
